@@ -2,7 +2,7 @@
 #include "train.h"
 
 bool Train::isEmpty() {
-    if (first == NULL) {
+    if (first == nullptr) {
         return true;
     } else {
         return false;
