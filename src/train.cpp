@@ -4,8 +4,7 @@
 bool Train::isEmpty() {
     if (first == NULL) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -29,8 +28,7 @@ bool Train::get() {
     if (!(isEmpty())) {
         bool num = first->light;
         return num;
-    }
-    else {
+    } else {
         return 0;
     }
 }
