@@ -10,7 +10,7 @@ class Train {
         Cage* prev;
     };
     Cage* first = NULL;
- 
+
  public:
     bool check = false;
     int countOp;
