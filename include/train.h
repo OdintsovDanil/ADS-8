@@ -9,7 +9,7 @@ class Train {
         Cage* next;
         Cage* prev;
     };
-    Cage* first = NULL;
+    Cage* first = nullptr;
 
  public:
     bool check = false;
